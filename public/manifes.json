@@ -1,0 +1,20 @@
+{
+  "short_name": "WrS",
+  "name": "Webpack React Starter",
+  "description": "simple boilerplate for creating React applications.",
+  "background_color": "#ff2400",
+  "display": "standalone",
+  "theme_color": "#ff2400",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

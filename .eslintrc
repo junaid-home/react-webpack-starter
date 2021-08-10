@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "ignorePatterns": ["/node_modules/**/*", "/package*", "/build/**/*"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "eslint-config-prettier",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "strict": ["error", "never"]
+  }
+}
